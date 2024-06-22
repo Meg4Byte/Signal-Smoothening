@@ -1,8 +1,8 @@
-# Signal Smoothening
+# Signal Smoothing
 
 ![schematic](https://github.com/Meg4Byte/Signal-Smoothening/assets/121357383/dac22ab1-f70f-40cf-a002-9c030d3bf80a)
 
-This project explores various methods of signal smoothening in electronics and science, focusing on tanh smoothing and quadratic smoothing techniques. It provides insights into their applications, mathematical formulations, and practical examples.
+This project explores various methods of signal smoothing in electronics and science, focusing on tanh smoothing and quadratic smoothing techniques. It provides insights into their applications, mathematical formulations, and practical examples.
 
 ## Table of Contents
 - [Introduction](#Introduction)
@@ -19,7 +19,7 @@ This project explores various methods of signal smoothening in electronics and s
 
 ## Introduction
 
-Signal smoothening is essential in electronics to reduce noise and irregularities, enhancing signal clarity and enabling accurate data analysis. This project explores two key methods: tanh smoothing and quadratic smoothing, demonstrating their effectiveness and applications.
+Signal smoothing is essential in electronics to reduce noise and irregularities, enhancing signal clarity and enabling accurate data analysis. This project explores two key methods: tanh smoothing and quadratic smoothing, demonstrating their effectiveness and applications.
 
 ## Project Description
 
