@@ -11,6 +11,7 @@ This project explores various methods of signal smoothening in electronics and s
 - [Cloning or Downloading the Repository](#Cloning-or-Downloading-the-Repository)
     - [Cloning via Git (Command Line)](#Cloning-via-Git-(-Command-Line-))
     - [Download the Zip File](#Download-the-Zip-File)
+- [Running the Project](#Running-the-Project)
 - [License](#License)
 - [Contact](#Contact)
 
@@ -65,7 +66,7 @@ Select "Download ZIP" from the dropdown menu.
 
 Extract the downloaded ZIP file to your desired directory
    
-#### Running the Project 
+## Running the Project 
 
 -Open MicroCap-12 and navigate to open 
 
