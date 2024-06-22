@@ -5,11 +5,14 @@ This project explores various methods of signal smoothening in electronics and s
 ## Table of Contents
 - [Introduction](#Introduction)
 - [Project Description](#Project-Description)
+- [Key Concepts](#Key-Concepts)
 - [Applications](#Applications)
-- [Installation](#installation)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+- [Prerequisites](#Prerequisites)
+- [Cloning or Downloading the Repository](#Cloning-or-Downloading-the-Repository)
+    -[Cloning via Git (Command Line)](#Cloning-via-Git-(Command-Line))
+    -[Download the Zip File](#Download-the-Zip-File)
+- [License](#License)
+- [Contact](#Contact)
 
 ## Introduction
 
@@ -74,6 +77,6 @@ Extract the downloaded ZIP file to your desired directory
 
 This project is licensed under the MIT License. You are free to use, modify, and distribute this code at your own discretion.
 
-## Contanct 
+## Contact
 
 For questions or feedback, feel free to reach out at petnenadd_d@uns.ac.rs .
