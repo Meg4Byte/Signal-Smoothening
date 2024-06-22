@@ -3,9 +3,9 @@
 This project explores various methods of signal smoothening in electronics and science, focusing on tanh smoothing and quadratic smoothing techniques. It provides insights into their applications, mathematical formulations, and practical examples.
 
 ## Table of Contents
-- [Introduction](#introduction)
-- [Project Description](#project-description)
-- [Applications](#applications)
+- [Introduction](#Introduction)
+- [Project Description](#Project-Description)
+- [Applications](#Applications)
 - [Installation](#installation)
 - [Contributing](#contributing)
 - [License](#license)
@@ -19,7 +19,7 @@ Signal smoothening is essential in electronics to reduce noise and irregularitie
 
 The project includes detailed explanations and practical examples of tanh smoothing and quadratic smoothing methods. It discusses their mathematical formulations, implementation in signal processing, and comparisons based on real-world applications.
 
-### Key Ideas 
+### Key Concepts 
 
 1. **Hyperbolic Tangent Smoothing**: Utilizes the hyperbolic tangent function to achieve smooth transitions in signal processing.
 2. **Quadratic Smoothing**: Fits quadratic functions to segments of signals to capture nonlinear variations and smooth out irregularities.
@@ -46,22 +46,34 @@ The project includes detailed explanations and practical examples of tanh smooth
 
    ```bash
    cd path/to/your/directory
-  
-  ```bash
+   ```
+   ```bash
    git clone https://github.com/yourusername/Signal-Smoothening.git
-  ```
+  
 #### Download the Zip File
 
 If you prefer not to use command line you can download the zip file of the repository.
 
 Navigate to the GitHub repository.
+
 Click on the green "Code" button.
+
 Select "Download ZIP" from the dropdown menu.
+
 Extract the downloaded ZIP file to your desired directory
    
-###Running the Project 
+#### Running the Project 
 
--Open MicroCap-12 and go to open 
+-Open MicroCap-12 and navigate to open 
+
 -Open the project 
+
 -Run transient analysis 
 
+## License
+
+This project is licensed under the MIT License. You are free to use, modify, and distribute this code at your own discretion.
+
+## Contanct 
+
+For questions or feedback, feel free to reach out at petnenadd_d@uns.ac.rs .
