@@ -34,13 +34,13 @@ The project includes detailed explanations and practical examples of tanh smooth
 - Enhancement of data analysis in scientific research and engineering.
 - Prototyping and development of systems requiring accurate signal representation.
 
-### Prerequisites
+## Prerequisites
 
 -MicroCap-12 (32 or 64bit version)
 
 -Solid understanding of signals (mainly polynomials and hyperbolic tan)
 
-### Cloning or Downloading the Repository
+## Cloning or Downloading the Repository
 
 #### Cloning via Git (Command Line)
 
