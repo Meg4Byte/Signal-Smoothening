@@ -1,101 +1,67 @@
-# Signal-Smoothening
-Brief intro on signal smoothening methods in electronics and science 
+# Signal Smoothening
 
-
+This project explores various methods of signal smoothening in electronics and science, focusing on tanh smoothing and quadratic smoothing techniques. It provides insights into their applications, mathematical formulations, and practical examples.
 
 ## Table of Contents
 - [Introduction](#introduction)
 - [Project Description](#project-description)
 - [Applications](#applications)
 - [Installation](#installation)
+- [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
 
 ## Introduction
 
-The Ball Balancing Seesaw project aims to balance a ball on a beam using a servo motor for control. This project leverages the principles of classical control theory and kinematics to maintain the ball's position at the desired setpoint. It is a fundamental problem in control systems and robotics, providing a hands-on application of Proportional-Integral-Derivative (PID) control and sensor feedback integration.
+Signal smoothening is essential in electronics to reduce noise and irregularities, enhancing signal clarity and enabling accurate data analysis. This project explores two key methods: tanh smoothing and quadratic smoothing, demonstrating their effectiveness and applications.
 
 ## Project Description
 
-The system consists of a beam mounted on a pivot, with a ball placed on the beam. A servo motor is connected to the pivot to adjust the beam's angle, thereby controlling the ball's position. The goal is to keep the ball at a specific position on the beam despite disturbances.
+The project includes detailed explanations and practical examples of tanh smoothing and quadratic smoothing methods. It discusses their mathematical formulations, implementation in signal processing, and comparisons based on real-world applications.
 
-### Key Components
+### Key Ideas 
 
-1. **Sensors**: Time of fligh sensor (e.g., VL53L0X) measures the distance of the ball from the pivot , providing real-time position feedback.
-2. **Actuators**: A servo motor adjusts the beam's angle based on the control signals.
-3. **Control Algorithm**: A PID controller computes the necessary adjustments to the beam angle to minimize the error between the ball's current position and the target position.
-
-### Control Theory and Kinematics
-
-- **Degrees of Freedom (DOF)**: The system is a 1 DOF problem, as it involves controlling the ball's position along one axis.
-- **PID Control**: The PID controller uses the proportional, integral, and derivative terms to compute the control signal.The project uses PID but any control algorithm would do , the PID was chosen for it's simplicity.
-- **Implementation Steps**: Refer to the [Implementation Steps](#implementation-steps) section for detailed steps on setting up and running the project.
-
-## Why bother with this project?
-
-- Real-time ball position feedback using an time of flight sensor , fundamentals of optical sensors , how do we measure and sample data using lasers , challenges and solutions.
-- Derive a mathematical model most suitable for this project using Newtonian or Lagranian mechanics.Test your model with real life model and see the differences , how would you model non-idealities? 
-- Design a PID controller that works according to your system requirements , hands of experience with settling time , steady-state error , overshoot , stability.How would you design a system to handle multiple disturbances?
-- Actuator control . how do we choose actuator that is "good enough" for this project?What are some pros and cons of using servos?How would you handle deadband and slow response to fast disturbances or steady-state jitter? 
-- It's a good feeling to make something with your hands from time to time , even though you can make such system from nothing (see the image above) there are real benefits if you decide to implement this using 3D modeling.
+1. **Hyperbolic Tangent Smoothing**: Utilizes the hyperbolic tangent function to achieve smooth transitions in signal processing.
+2. **Quadratic Smoothing**: Fits quadratic functions to segments of signals to capture nonlinear variations and smooth out irregularities.
 
 ## Applications
 
-- Educational purposes for learning PID control and robotics.
-- Demonstrating principles of feedback control systems.
-- Prototyping and development of automated positioning systems.
-- Drone or airplace balancing can be aproximated using this model.
-- Focal point for expanding to multiple DOF systems. 
-
-## Installation
+- Educational purposes for learning signal processing techniques.
+- Enhancement of data analysis in scientific research and engineering.
+- Prototyping and development of systems requiring accurate signal representation.
 
 ### Prerequisites
 
-- Python 3.x
-- Raspberry Pi (with Raspbian or compatible OS)
-- Required libraries (e.g., VL53L0X Python library, RPi.GPIO)
-- Special thanks to Gadgetoid for writting python module for VL53L0X ,check out the repository for more info https://github.com/Gadgetoid/VL53L0X-python
+-MicroCap-12 (32 or 64bit version)
 
-### Cloning the Repository
+-Solid understanding of signals (mainly polynomials and hyperbolic tan)
 
-1. Open your terminal or command prompt.
+### Cloning or Downloading the Repository
 
-2. Navigate to the directory where you want to store the project files.
+#### Cloning via Git (Command Line)
 
-3. Run the following command to clone the repository:
+1. Open your command prompt or Git Bash terminal.
 
-  ```bash
-  git clone https://github.com/Meg4Byte/Ball-Balancing-Seesaw.git
-  ```
-  ```bash
-  cd /Ball-Balancing-Seesaw/main
-  ```
+2. Navigate to the directory where you want to store the project files:
 
-### Running the Code
-
-In order to run the project do the following :
-
-   1. ```bash
-      chmod +x main.py
-
-   2. ```bash
-      python3 main.py
+   ```bash
+   cd path/to/your/directory
   
-## Contributing
+  ```bash
+   git clone https://github.com/yourusername/Signal-Smoothening.git
+  ```
+#### Download the Zip File
 
- If you'd like to contribute to this project, please follow these guidelines:
- 
- Fork the repository on GitHub.
- Clone your forked repository to your local machine.
- Create a new branch for your feature or bug fix.
- Make your changes and commit them.
- Push your changes to your fork on GitHub.
- Create a pull request to submit your contribution.
+If you prefer not to use command line you can download the zip file of the repository.
+
+Navigate to the GitHub repository.
+Click on the green "Code" button.
+Select "Download ZIP" from the dropdown menu.
+Extract the downloaded ZIP file to your desired directory
    
-## License 
+###Running the Project 
 
-This project is licensed under the MIT License. You are free to use, modify, and distribute this code at your own discretion.
+-Open MicroCap-12 and go to open 
+-Open the project 
+-Run transient analysis 
 
-## Contact
-
-For questions or feedback, feel free to reach out at petnenadd_d@uns.ac.rs .
