@@ -9,8 +9,8 @@ This project explores various methods of signal smoothening in electronics and s
 - [Applications](#Applications)
 - [Prerequisites](#Prerequisites)
 - [Cloning or Downloading the Repository](#Cloning-or-Downloading-the-Repository)
-    -[Cloning via Git (Command Line)](#Cloning-via-Git-(-Command-Line-))
-    -[Download the Zip File](#Download-the-Zip-File)
+    - [Cloning via Git (Command Line)](#Cloning-via-Git-(-Command-Line-))
+    - [Download the Zip File](#Download-the-Zip-File)
 - [License](#License)
 - [Contact](#Contact)
 
