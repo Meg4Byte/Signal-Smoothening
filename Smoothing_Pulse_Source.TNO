@@ -1,0 +1,54 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.5 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***               Transient Analysis of Smoothing_Pulse_Source               ***
+***                            22-Jun-24 15:18:31                            ***
+********************************************************************************
+Limits
+======
+Maximum Run Time           1000n
+Output Start Time (tstart) 0
+Maximum Time Step          .1n
+Number of Points           51
+Temperature                Linear 27
+Retrace Runs               1
+Run Options                Normal
+State Variables            Zero
+Operating Point            On
+Operating Point Only       Off
+Auto Scale Ranges          Off
+Accumulate Plots           Off
+Fixed Time Step            Off
+Periodic Steady State      Off
+Ignore Expression Errors   On
+
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             1.000   2             1.000   3             1.000  
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:       QUADRATIC_SMOOTHING         TANH_SMOOTHING                 NORMAL
+V                            1.000                  1.000                  1.000 
+Power DC Terms:
+PG                           0.000                  0.000                  0.000 
+
+DC Pin Currents:
+ISource                      0.000                  0.000                  0.000 
+
+
+Function Values
+==================
+Period(V(Normal),1,1)              500n
+Period(V(Quadratic_Smoothing),1,1) 500n
+
